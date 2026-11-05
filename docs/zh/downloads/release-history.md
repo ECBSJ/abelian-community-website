@@ -37,13 +37,13 @@ outline: deep
 ## Abelian (移動應用)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
-- **2026-11-06-v9.2.1**
+- **2026-11-06-v9.1.2**
   - 雙重認證（2FA）：支援通行密鑰（Passkeys）與 Google Authenticator。
   - 支援 UTXO 自動合併與拆分。
   - 優化頁面 UI 與使用體驗。
   - 修復多個模組中的錯誤並進行優化。
 
-  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.2.1.apk)
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.2.apk)
 
 - **2026-09-29-v9.1.0**
   - 自动创建和完成 QDay 和 Other Assets 钱包。
