@@ -37,6 +37,14 @@ We provide the packages of previous versions mainly for archive purposes. Please
 ## Abelian (Mobile)
 `abelian-mobile-wallet-pro / info.abelian.walletpro`
 
+- **2026-11-06-v9.2.1**
+  - Two-factor authentication (2FA): Supports Passkeys and Google Authenticator.
+  - UTXO auto-consolidation and splitting.
+  - The page UI and experience.
+  - Fixed bugs across multiple modules and optimized.
+
+  [Android](https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.2.1.apk)
+
 - **2026-09-28-v9.1.0**
   - Automatically create and complete QDay and Other Assets wallets.
   - QDay and Other Assets share the linked ABEL account badge, allowing users to switch between them, view, and copy the ABEL address.

@@ -164,7 +164,7 @@ outline: deep
     <span>下載我們最新的移動錢包</span>
   </div>
   <div class="btn-wrapper">
-    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk" class="btn-apk">APK</a>
+    <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.2.1.apk" class="btn-apk">APK</a>
     <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
     <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
   </div>
@@ -173,23 +173,10 @@ outline: deep
 ::: info <Badge type="warning" text="特點介紹" />
 新的移動錢包是對之前移動錢包的全面重寫，旨在更加用戶友好和功能豐富。它可在 iOS 和 Android 平台上使用。
 
-**v9.1.0 升級說明:**
-
-- 自動建立並完善QDay與Other Assets錢包。
-- QDay和Other Assets共用綁定的ABEL賬號徽章，用戶可自由切換、查看並複製ABEL地址。
-- 錢包Abelian模塊新增客服入口。
-- 非主網環境新增App版本徽章顯示。
-- 新增用於手動構建APK、AAB和TestFlight的 GitHub Actions 工作流。
-- USDT-TRC20轉賬無需TRX：關閉後僅顯示一次黃色提示，離開轉賬流程後自動消失。
-- 鏈上異常：採用後端返回的數據作為前端備用，避免訂單長時間停留在“進行中”或“等待中”狀態。
-- 轉賬/導入助記詞交互調整：移除自動收鍵盤，並將付款頁向上移動。
-- 優化macOS界面適配。
-- 調整U9詳情頁操作按鈕的佈局和文字顯示。
-- 在弱網絡條件下， Abel/U9 傳輸大 Hex 數據；前端現已支持 SNP 新增的 ref 引用傳遞模式。
-- 調整訂單詳情頁付款提示的左右間距。
-- 調整Other Assets頁面交易過濾圖標的位置。
-- 增大了語言抽屜的高度。
-- 移除了Abelian頭部金額的自動收縮，防止金額顯示異常縮小。
+**v9.2.1 升級說明:**
+- 雙重認證（2FA）：支援通行密鑰（Passkeys）與 Google Authenticator。
+- 支援 UTXO 自動合併與拆分。
+- 改進與修復：優化頁面 UI 與使用體驗，並修復多個模組中的錯誤。
 
 **新版本特性：**
 1. 支持 Abelian 二級網路 - QDay，允許用戶瀏覽區塊鏈數據、管理 ERC20 代幣、使用去中心化交易所、跨鏈質押 ABEL 代幣，以及訪問各種 DeFi 應用。

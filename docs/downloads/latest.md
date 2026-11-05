@@ -164,7 +164,7 @@ outline: deep
      <span>Download our latest mobile wallet</span>
     </div>
     <div class="btn-wrapper">
-      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.1.0.apk" class="btn-apk">APK</a>
+      <a href="https://download.pqabelian.io/release/android/abelian-mobile-wallet-pro-v9.2.1.apk" class="btn-apk">APK</a>
       <a href="https://play.google.com/store/apps/details?id=info.abelian.walletpro" class="btn-base btn-android"></a>
       <a href="https://apps.apple.com/us/app/abelian-pro/id6475756639" class="btn-base btn-ios"></a>
     </div>
@@ -174,31 +174,10 @@ outline: deep
 The new mobile wallet is a complete rewrite of the previous mobile wallet and is designed to be more user-friendly and feature-rich.
 It is available on both iOS and Android platforms.
 
-**v9.1.0 Upgrade Notes:**
-
-**New Features**
-- Automatically create and complete QDay and Other Assets wallets.
-- QDay and Other Assets share the linked ABEL account badge, allowing users to switch between them, view, and copy the ABEL address.
-- Added a customer service entry in the Abelian module.
-- Added an App version badge in non-mainnet environments.
-- Added GitHub Actions workflows for manually building APK, AAB, and TestFlight.
-
-**Experience Improvements**
-- USDT-TRC20 transfer without TRX: the yellow warning is displayed only once after being closed and automatically disappears when leaving the transfer flow.
-- On-chain exceptions: use backend-returned data for frontend fallback to prevent orders from remaining in “In Progress” or “Waiting” status.
-- Transfer/import mnemonic interaction adjustments: removed automatic keyboard dismissal, and moved the payment page upward.
-- macOS UI adaptation optimization.
-- Optimized the layout and copy of action buttons on the U9 details page.
-- Under weak network conditions, ABEL/U9 transfers transmit large Hex data; the frontend now supports the new ref reference-passing mode added by SNP.
-- Adjusted the left and right spacing of the payment prompt on the order details page.
-- Aligned the position of the Transactions filter icon on the Other Assets page.
-- Increased the height of the Language drawer.
-- Removed automatic font shrinking for the Abelian Header amount to prevent the amount from becoming abnormally small.
-
-**Bug Fixes**
-- Fixed an issue on Android devices where the soft keyboard could not pop up, preventing users from entering their password, blocking transaction confirmation, and completely blocking the flow.
-- Fixed an issue in the Other Assets transfer module where transaction history filtering incorrectly displayed transfer records of fake tokens forged by attackers (e.g., U5DT).
-- Fixed an issue where the app did not return to the homepage after importing an account for the first time.
+**v9.2.1 Upgrade Notes:**
+- Two-factor authentication (2FA): SupportsPasskeys and Google Authenticator.UTXO auto-consolidation and splitting.
+- Improvements & Fixes:the page UI and experience.
+- Fixed bugs across multiple modules and optimized.
 
 **New version Features:**
 1. Support Abelian Layer 2 network - QDay, allowing users to view blockchain data, manage ERC20 tokens, use decentralized exchanges, stake ABEL tokens across chains, and access various DeFi apps.
